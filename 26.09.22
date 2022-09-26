@@ -1,0 +1,32 @@
+lst=[1,2,'a', 1.5]
+p=list('python')
+print(lst)
+print(p)
+
+///////////////////////////
+
+lst=[1,2,'a', 1.5]
+p=list('python')
+print(lst)
+print(p)
+a=[-1, -2, -3]
+b=[-1, -2, -3]
+c=a+b
+print(c)
+
+////////////////////////
+
+lst=[1,2,'a', 1.5]
+p=list('python')
+print(lst)
+print(p)
+a=[-1, -2, -3]
+b=[-1, -2, -3]
+c=a+b
+print(c)
+print(lst[2])
+lst[3]=7
+print(lst)
+
+/////////////////////////
+
