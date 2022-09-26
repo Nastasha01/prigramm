@@ -30,3 +30,61 @@ for x in lst:
     if x<0:
         neg.append(x)
 print(neg)
+
+////////////////////////////////////
+
+lst=[-2, -5, -7, -25, -68, -55, -10]
+neg=[]
+for x in lst:
+    if x<0:
+        neg.append(x)
+print(neg)
+neg=[]
+for i in range(len(lst)):
+    if lst[i]<0:
+        neg.append(lst[i])
+print(neg)
+
+/////////////////////////////////////////
+
+var = ['l', 'i', 's', 't']
+asd = var.copy()
+print(asd)
+['l', 'i', 's', 't']
+var = ['l', 'i', 's', 't']
+asd = var
+print(asd)
+['l', 'i', 's', 't']
+print(var)
+['l', 'i', 's', 't']
+var.reverse()
+print(asd)
+['t', 's', 'i', 'l']
+print(var)
+['t', 's', 'i', 'l']
+
+var = ['l', 'i', 's', 't']
+asd = var.copy()
+print(asd)
+['l', 'i', 's', 't']
+print(var)
+['l', 'i', 's', 't']
+var.reverse()
+print(asd)
+['l', 'i', 's', 't']
+print(var)
+['t', 's', 'i', 'l']
+
+/////////////////////////////////////////
+
+var = ['l', 'i', 's', 't']
+var.clear()
+print(var)
+[]
+
+//////////////////////////////////////
+
+var = ['l', 'i', 's', 't']
+var.extend(['l', 'i', 's', 't'])
+print(var)
+['l', 'i', 's', 't', 'l', 'i', 's', 't']
